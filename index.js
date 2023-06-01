@@ -29,10 +29,10 @@ app.listen(PORT, ()=>{
  * CONEXION CON LA DB
  */
 const pool =mysql.createPool({
-    host: process.env.Host_dev,
-    user: process.env.Username_dev,
-    password: process.env.Password_dev,
-    database: process.env.data_base,
+    host: /54.147.25.136/,
+    user: 1152163,
+    password: '1152163*',
+    database: 1152161-1152163,
     connectionLimit: 10,
     ssl:{
         rejectUnauthorized: false
